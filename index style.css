@@ -1,0 +1,87 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, ol, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Dark gray text color */
+}
+
+/* Layout */
+body {
+    background-color: #f9f9f9; /* Light pastel background */
+}
+
+/* Header */
+header {
+    background-color: #56c9cc; /* Pastel blue */
+    color: #fff; /* White text */
+    padding: 20px; /* Add padding for spacing */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px; /* Larger font size for heading */
+}
+
+/* Navigation */
+nav {
+    background-color: #56c9cc; /* Pastel blue */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+    color: #ff6f61; /* Pastel red on hover */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #56c9cc; /* Pastel blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Add more padding for spacing */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links */
+a {
+    color: #56c9cc; /* Pastel blue */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #ff6f61; /* Pastel red on hover */
+}
